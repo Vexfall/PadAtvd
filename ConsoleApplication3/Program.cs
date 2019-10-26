@@ -15,6 +15,7 @@ namespace PAD2C032919
             Console.Write("Escreva o seu primeiro nome:");
             string nome = Console.ReadLine();
             promovido.DefinirNome(nome);
+            promovido.DarSalve();
         }
     }
 }

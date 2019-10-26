@@ -29,5 +29,13 @@ namespace PAD2C032919
         {
             return salarioPmes = Salario;
         }
+
+
+
+
+        public void DarSalve()
+        {
+            Console.WriteLine("Salve meu patral, tenha um bom dia e uma boa semana :)");
+        }
     }
 }
